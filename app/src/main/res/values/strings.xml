@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practica3</string>
+    <string name="hor">Horas: </string>
+    <string name="min">Minutos: </string>
+    <string name="seg">Segundos: </string>
+    <string name="mil">Mili Segundos: </string>
+    <string name="convert">Convertir</string>
+</resources>

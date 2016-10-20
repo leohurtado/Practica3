@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.tecii.android.practica3.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="@dimen/View"
+            android:layout_height="wrap_content"
+            android:text="Numero: "/>
+        <EditText
+            android:layout_width="@dimen/EditText"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNum" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConvert"
+        android:text="@string/convert"
+        android:onClick="Convertir"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="@dimen/View"
+            android:layout_height="wrap_content"
+            android:text="@string/hor" />
+        <EditText
+            android:layout_width="@dimen/EditText"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHoras"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="@dimen/View"
+            android:layout_height="wrap_content"
+            android:text="@string/min" />
+        <EditText
+            android:layout_width="@dimen/EditText"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMin"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="@dimen/View"
+            android:layout_height="wrap_content"
+            android:text="@string/seg" />
+        <EditText
+            android:layout_width="@dimen/EditText"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSeg"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="@dimen/View"
+            android:layout_height="wrap_content"
+            android:text="@string/mil" />
+        <EditText
+            android:layout_width="@dimen/EditText"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtmilSeg"/>
+    </LinearLayout>
+
+</LinearLayout>
